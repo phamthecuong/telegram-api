@@ -1,0 +1,34 @@
+{
+    "name": "pcplus/tele-api",
+    "description": "Connect api telegram",
+    "autoload": {
+        "psr-4": {
+            "Pcplus\\TeleApi\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+          "name": "cuongpt.info",
+          "role": "Developer"
+        }
+      ],
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "^6.5"
+      },
+    "autoload-dev": {
+        "psr-4": {
+          "Pcplus\\TeleApi\\Tests\\": "tests"
+        }
+      },
+    "extra": {
+        "branch-alias": {
+          "dev-master": "1.x.x-dev"
+        }
+      },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

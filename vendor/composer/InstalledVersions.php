@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '6b82994608f9770bf9681d1ac00d525b0a529227',
+    'reference' => '3877fc2c5f482ccf8bad8f25f86bd7c32aa3759d',
     'name' => 'pcplus/tele-api',
   ),
   'versions' => 
@@ -100,7 +100,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '6b82994608f9770bf9681d1ac00d525b0a529227',
+      'reference' => '3877fc2c5f482ccf8bad8f25f86bd7c32aa3759d',
     ),
     'phar-io/manifest' => 
     array (

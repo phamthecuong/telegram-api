@@ -1,0 +1,10 @@
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+/go-pear.phar
+.history
+.DS_Store
+storage/.DS_Store
+/storage/*

@@ -26,8 +26,8 @@ class TelegramService {
     {
         $url = $this->teleUrl.'/bot' . $this->botId . '/sendMessage';
 
-        $response = $this->clientRequest->request('POST', $url, [
-            'form_data' => [
+        $response = $this->clientRequest->request('GET', $url, [
+            'query' => [
                 'text' => $message,
                 'chat_id' => $this->chatId,
                 'parse_mode' => 'HTML',

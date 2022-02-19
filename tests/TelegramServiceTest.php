@@ -15,7 +15,9 @@ class TelegramServiceTest extends TestCase {
      */
     public function testPushNoti()
     {
-        $service = new TelegramService('5270413994:AAHU0SnZ0z0VsgteehI0cgDKqx4Z_TTWMQU', '');
+        $service = new TelegramService('5270413994:AAHU0SnZ0z0VsgteehI0cgDKqx4Z_TTWMQU', '-740662220');
+
+        $service->pushNotification('vip 2');
 
         $this->assertTrue(true);
     }
